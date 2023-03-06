@@ -1,0 +1,21 @@
+{
+    "name": "leocavalcante/nano-goridge",
+    "description": "Proof of concept about using Hyperf's Nano with Spiral's Goridge",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leocavalcante",
+            "email": "lc@leocavalcante.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "hyperf/nano": "^2.0",
+        "spiral/goridge": "^3.2"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^5.0"
+    }
+}

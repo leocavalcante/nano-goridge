@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  nano-goridge:
+    container_name: nano-goridge
+    image: nano-goridge
+    tty: true
+    build:
+      context: .
+    volumes:
+      - ./:/opt
+networks:
+  default:
+    name: nano-goridge
